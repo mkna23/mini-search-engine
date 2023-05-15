@@ -5,6 +5,6 @@ The text was preprocessed by eliminating stop words, punctuations and then lemma
 
 # Python scripts and their results:
 
-- assign2Main.py : This file performs indexing and searching python files
-- indexing.py:
+- assign2Main.py : This file act as user interface and calls indexing and searching python files to get the text articles with their relevance score for the search word entered by user.
+- indexing.py: This script takes the folder of files and open only text filed one by one. For each text file it preprocess the text and then using the frequenct of each searhed word with the words in text, it gives the index to the document.  
 - searching.py:
